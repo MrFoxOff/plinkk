@@ -1,33 +1,25 @@
 const profileData = {
-    profileLink: "https://github.com", // Lien du profil 
-    profileImage: "https://avatars.githubusercontent.com/u/9919?s=200&v=4", // Image de profil
-    profileIcon: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png", // Icone derrière le profil
-    profileSiteText: "GitHub", // Nom derrière le profil
-    userName: "GitHub User", // Nom affiché sur la page et dans le titre de l'onglet
-    email: "user@github.com", // Adresse mail affichée sur la page
+    profileLink: "https://discord.gg/99ed5N9993", // Lien du profil 
+    profileImage: "https://cdn.discordapp.com/attachments/1340778296513663006/1342194890754228296/th.png?ex=67b8bfe6&is=67b76e66&hm=298e78c75afc187f8b8763b6e3fefe4888077a5764cd2dbcaf59e245db39544f&", // Image de profil
+    profileIcon: "https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/636e0a6ca814282eca7172c6_icon_clyde_white_RGB.svg", // Icone derrière le profil
+    profileSiteText: "", // Nom derrière le profil
+    userName: "AkunaCF", // Nom affiché sur la page et dans le titre de l'onglet
+    email: "", // Adresse mail affichée sur la page
     links: [ // Liens affichés sur la page
-        { icon: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png", url: "https://github.com/link1", text: "Link 1", name: "GitHub" },
-        { icon: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png", url: "https://github.com/link2", text: "Link 2", name: "Discord" },
-        { icon: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png", url: "https://github.com/link3", text: "Link 3", name: "LinkedIn" },
+        { icon: "https://ugc.production.linktr.ee/9dc13e4b-9b63-48dd-925d-f7d029838ea9_SsjtY2532AMNniMx-3UW1Za-honMPCAwdRKwu8an7E01YSmKI-ywe-8Ku64os1aaPtgjrRaYIQ-s900-c-k-c0x00ffffff-no-r.jpeg", url: "https://discord.gg/99ed5N9993", text: "Shadow Legion", name: "Discord" },
+        { icon: "", url: "https://www.youtube.com/@ShadowLegionFR", text: "YouTube", name: "YouTube" },
     ],
     // Fond de la page si une liste est utilisée alors le fond sera via les couleurs que vous mettez dedans
-    background: ["#FF5733", "#33FF57"], //"https://static.vecteezy.com/ti/vecteur-libre/p1/12697876-motif-geometriquele-continue-noir-et-blanc-motif-repetitif-monochrome-arriere-plan-abstrait-optique-tridimensionnel-avec-cubes-troues-vectoriel.jpg",
+    background: "https://png.pngtree.com/background/20220726/original/pngtree-seamless-vector-topographic-map-background-white-on-dark-picture-image_1808471.jpg", //"https://static.vecteezy.com/ti/vecteur-libre/p1/12697876-motif-geometriquele-continue-noir-et-blanc-motif-repetitif-monochrome-arriere-plan-abstrait-optique-tridimensionnel-avec-cubes-troues-vectoriel.jpg",
     degBackgroundColor: 45, // inclinaison du degradé
     profileHoverColor: "#7289DA", // Couleur de hover sur l'article (l'élément principal)
-    neonColors: ["#7289DA", "#FF4500", "#00FF00", "#FFD700", "#FF69B4"], // Couleurs du neon de profil
+    neonColors: [], // Couleurs du neon de profil
     iconUrl: "https://avatars.githubusercontent.com/u/9919?s=200&v=4", // Icone de l'onglet
-    description: "Mollit laboris cupidatat do enim nulla ex laborum. Nulla labore reprehenderit nisi non anim aute.", // Description affichée sur la page, display: none si vide
-    meta: {
-        title: "GitHub User - Linktree", // Titre de l'onglet
-        description: "Mollit laboris cupidatat do enim nulla ex laborum. Nulla labore reprehenderit nisi non anim aute.", // Description de l'onglet
-        keywords: "GitHub, User, Profile, Links, Website, Template, plinkk, klaynight", // Mots-clés de l'onglet
-        url: "https://github.com" // URL de l'onglet
-    },
+    description: "", // Description affichée sur la page, display: none si vide
     
     labels: [
-        { data: "Developer", color: "#FF6384", fontColor: "#FFFFFF" },
-        { data: "Designer", color: "#36A2EB", fontColor: "#FFFFFF" },
-        { data: "Engineer UI/UX", color: "#4BC0C0", fontColor: "#FFFFFF" },
+        { data: "Builder BRM5", color: "#FF6384", fontColor: "#FFFFFF" },
+        { data: "Discord Maker", color: "#36A2EB", fontColor: "#FFFFFF" },
     ],
     
     neonEnable: 1, // 1 : Enable, 0 : Disable
@@ -37,9 +29,9 @@ const profileData = {
     EnableAnimationButton: 1, // 1 : Enable, 0 : Disable
     EnableAnimationBackground: 1, // 1 : Enable, 0 : Disable
 
-    backgroundSize : 50, // En pourcentage
+    backgroundSize : 75, // En pourcentage
     
-    selectedThemeIndex: 1,                   // Thème sélectionné            (voir ci-dessous)
+    selectedThemeIndex: 8,                   // Thème sélectionné            (voir ci-dessous)
 
     selectedAnimationIndex : 0,             // Animation de l'article       (voir ci-dessous)
     selectedAnimationButtonIndex : 10,       // Animation des boutons        (voir ci-dessous)
@@ -49,7 +41,7 @@ const profileData = {
     delayAnimationButton: 0.1,        // Délai de l'animation en secondes
 
     canvaEnable: 1, // 1 : Enable, 0 : Disable
-    selectedCanvasIndex: 12,          // Animation du canva (voir ci-dessous)
+    selectedCanvasIndex: 17,          // Animation du canva (voir ci-dessous)
 };
 //      Thèmes      \\
 // 0 : Grey Theme
